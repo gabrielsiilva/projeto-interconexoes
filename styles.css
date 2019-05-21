@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+#div-img {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 60, 0.6) 10%, rgba(0, 0, 0, 1))
+}
+
+#img-background {
+    width: 100%;
+    opacity: 0.3;
+}
+
+#text-background {
+    position: absolute;
+    font-family: 'Share Tech Mono', monospace;
+    top: 200px;
+    font-size: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    border-right: .15em solid #ffffff;
+    padding-right: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation:
+        typing 3s steps(20, end),
+        blink-caret 0.75s step-end infinite
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #ffffff;
+    }
+}
+
+.main-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.icon-html {
+    font-size: 90px;
+    color: #ff7d00;
+}
+
+.icon-css {
+    font-size: 90px;
+    color: #1b73ba;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.col-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-title {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#btn-link {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px
+}
+
+.icon-linkedin {
+    font-size: 40px;
+    color: #0074b2;
+}
+
+.wrapper {
+    height: 340px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#icon-vbox {
+    width: 100px;
+}
+
+#btn-link-vbox {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.icon-download {
+    padding-left: 15%;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.icon-download:hover {
+    color: #0074b2;
+}
+
+.icon-youtube {
+    font-size: 50px;
+    color: #ff0000;
+}
+
+#link-voltar {
+    text-decoration: none;
+}
